@@ -13,11 +13,17 @@ public class Robokieli {
 
         String[] comm = loadComm(args[0]);
         int[] nmb = loadNmb(args[1]);
-        int[] mempatches = loadNmb(args[2]);
         int[] mem = new int[100000];
-        for (int i = 0; i < mempatches.length; i++) {
-            mem[i] = mempatches[i];
+
+        if (args.length > 2) {
+            int[] mempatches = loadNmb(args[2]);
+            for (int i = 0; i < mempatches.length; i++) {
+                mem[i] = mempatches[i];
+            }
         }
+
+
+
 
         if (args.length == 4 && args[3].contains("-v")) {
             verbose = true;
