@@ -3,7 +3,7 @@ A simple virtual machine for processing Robokieli
 
 ### What?
 Robokieli is the name I've given to a simple, unnamed assembly-like language, originally created by [Tietojenkäsittelytieteen valintakoeyhteistyö](https://tkt-yhteisvalinta.fi/)
-for use in the 2018 Finnish computer science entrance exams. It was used as a basis for [question 2](https://tkt-yhteisvalinta.fi/wp-content/uploads/2016/05/tehtava-2-16.pdf)
+for use in the 2018 Finnish computer science entrance exams. It was used as a basis for [question 2](https://tkt-yhteisvalinta.fi/wp-content/uploads/2018/05/Tehtava_2_korjattu_2018.pdf)
 of the 2018 exam. This machine for running the Robokieli code has been written entirely based on the question, as no other mentions of it by the authors are known to exist.
 
 ### Why?
