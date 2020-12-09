@@ -16,8 +16,8 @@ It's pretty error-safe as long as the syntax is correct, though. Programs need t
 The syntax reference is found in the 2018 entrance exams. For running the program you need three files: commands, provided here in comm.txt, number input, provided here in num.txt, and memory patches, provided here in mem.txt
 Writing the included program was the final task in the exam, and it takes two numbers and multiplies them. Memory patches from can be left empty, and are only required for programs where spesific numbers are required to be set as quasi-variables before the program is run
 
-The program can be compiled with javac, and run with 
-```java Robokieli comm.txt mem.txt num.txt``` with the additional ```-v``` flag to be added to the end for verbosity.
+The program can be compiled with javac, and ran with 
+```java Robokieli program.rok num.txt mem.txt``` with the additional ```-v``` flag to be added to the end for verbosity.
 
 ### Thanks
 Tkt-yhteisvalinta
