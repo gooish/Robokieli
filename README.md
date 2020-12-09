@@ -6,6 +6,8 @@ Robokieli is the name I've given to a simple, unnamed assembly-like language, or
 for use in the 2018 Finnish computer science entrance exams. It was used as a basis for [question 2](https://tkt-yhteisvalinta.fi/wp-content/uploads/2018/05/Tehtava_2_korjattu_2018.pdf)
 of the 2018 exam. This machine for running the Robokieli code has been written entirely based on the question, as no other mentions of it by the authors are known to exist.
 
+Robokieli programs are stored in .rok files.
+
 ### Why?
 Dunno, just felt like making something. It was a sunday project written in very poor style with few functions and virtually no input checking, so expect it to crash horribly with the slightest syntax error.
 It's pretty error-safe as long as the syntax is correct, though. Programs need to halt in order to produce output, though I might change that in the future.
